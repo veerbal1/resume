@@ -4,15 +4,15 @@ import Body2 from '../components/Typography/Body2';
 import Body3 from '../components/Typography/Body3';
 import Name from '../components/Typography/Name';
 import Paragraph from '../components/Typography/Paragraph';
+import Sidebar from '../UIElements/Sidebar';
+import ContentBody from '../UIElements/ContentBody';
+import styles from '../styles/Entry.module.scss';
 
 const Entry = () => {
   return (
-    <div>
-      <Name>Veerbal Singh</Name>
-      <Paragraph>I am paragraph</Paragraph>
-      <Body1>I am body1</Body1>
-      <Body2>I am Body2</Body2>
-      <Body3>I am body3</Body3>
+    <div className={styles.entry}>
+      <Sidebar />
+      <ContentBody />
     </div>
   );
 };

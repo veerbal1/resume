@@ -65,16 +65,6 @@ body {
   scroll-behavior: smooth;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   -webkit-overflow-scrolling: touch;
-  padding: 2.5em 1em;
-}
-
-// Media query for mobile
-@media (max-width: 500px) {
-  html,
-  body {
-    font-size: 14px;
-    padding: 0.5em 0.7em;
-  }
 }
 
 img {
