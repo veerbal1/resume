@@ -1,4 +1,5 @@
 const myInfo = {
+  language: 'en',
   main: {
     name: {
       en: 'Veerbal Singh',
