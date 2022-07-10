@@ -1,3 +1,5 @@
+import Entry from './Entry';
+
 export default function Home() {
-  return <div>Veerbal Resume</div>;
+  return <Entry />;
 }
