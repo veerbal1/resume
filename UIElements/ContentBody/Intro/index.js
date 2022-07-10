@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <>
       {/*Current Role */}
-      <Body2>{myInfo.main.title['en']}</Body2>
+      <Body2>{myInfo.main.title[myInfo.language]}</Body2>
       {/* Name */}
       <Name>Veerbal Singh</Name>
     </>
