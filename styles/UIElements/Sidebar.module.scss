@@ -3,7 +3,9 @@
   background-color: var(--gray-dark);
   overflow-x: hidden;
   padding-top: 20px;
-  width: 10em;
+  width: 20%;
+  max-width: 30em;
+  min-width: 18em;
   transition: width 0.3s ease-in-out;
 }
 
