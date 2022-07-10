@@ -65,6 +65,43 @@ const myInfo = {
       },
     ],
   },
+  employment: {
+    heading: {
+      en: 'Five Years of Work Experience',
+      de: 'Fünf Jahre Arbeitserfahrung',
+      es: 'Cinco años de experiencia laboral',
+    },
+    info: [
+      {
+        id: 1,
+        title: 'UI Engineer',
+        company: 'Startup in Berlin',
+        companyUrl: 'https://www.startup-berlin.com/',
+        companyLocation: 'Berlin, Germany',
+        startDate: 'September 2019',
+        endDate: 'Present',
+        description: {
+          en: 'I am currently working as a software engineer at a startup in Berlin, Germany.',
+          de: 'Ich arbeite zur Zeit als Software-Engineer bei einer Start-up in Berlin, Deutschland.',
+          es: 'Actualmente estoy trabajando como ingeniero de software en una startup en Berlín, Alemania.',
+        },
+      },
+      {
+        id: 2,
+        title: 'UI/UX Engineer',
+        company: 'Startup in Berlin',
+        companyUrl: 'https://www.startup-berlin.com/',
+        companyLocation: 'Berlin, Germany',
+        startDate: 'September 2019',
+        endDate: 'Present',
+        description: {
+          en: 'I am currently working as a software engineer at a startup in Berlin, Germany.',
+          de: 'Ich arbeite zur Zeit als Software-Engineer bei einer Start-up in Berlin, Deutschland.',
+          es: 'Actualmente estoy trabajando como ingeniero de software en una startup en Berlín, Alemania.',
+        },
+      },
+    ],
+  },
 };
 
 export default myInfo;
