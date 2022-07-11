@@ -8,6 +8,7 @@ import Profile from './Profile';
 import styles from '../../styles/UIElements/ContentBody.module.scss';
 import Education from './Education';
 import Employment from './Employment';
+import Skills from './Skills';
 
 const ContentBody = () => {
   return (
@@ -24,6 +25,9 @@ const ContentBody = () => {
       <Space />
       <Space />
       <Employment />
+      <Space />
+      <Space />
+      <Skills />
     </div>
   );
 };

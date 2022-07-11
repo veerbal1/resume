@@ -1,0 +1,12 @@
+.skillItem {
+  display: flex;
+  margin: 1em;
+  min-width: 200px;
+  border-bottom: 1px solid var(--gray-dark);
+}
+
+@media screen and (max-width: 500px) {
+  .skillItem {
+    width: 100%;
+  }
+}

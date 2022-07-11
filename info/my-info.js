@@ -102,6 +102,71 @@ const myInfo = {
       },
     ],
   },
+  skills: [
+    {
+      id: 1,
+      name: 'HTML',
+      level: {
+        en: 'Advanced',
+        de: 'Fortgeschritten',
+        es: 'Avanzado',
+      },
+    },
+    {
+      id: 2,
+      name: 'CSS',
+      level: {
+        en: 'Advanced',
+        de: 'Fortgeschritten',
+        es: 'Avanzado',
+      },
+    },
+    {
+      id: 3,
+      name: 'JavaScript',
+      level: {
+        en: 'Advanced',
+        de: 'Fortgeschritten',
+        es: 'Avanzado',
+      },
+    },
+    {
+      id: 4,
+      name: 'React',
+      level: {
+        en: 'Advanced',
+        de: 'Fortgeschritten',
+        es: 'Avanzado',
+      },
+    },
+    {
+      id: 5,
+      name: 'Node.js',
+      level: {
+        en: 'Advanced',
+        de: 'Fortgeschritten',
+        es: 'Avanzado',
+      },
+    },
+    {
+      id: 6,
+      name: 'Express',
+      level: {
+        en: 'Advanced',
+        de: 'Fortgeschritten',
+        es: 'Avanzado',
+      },
+    },
+    {
+      id: 7,
+      name: 'MongoDB',
+      level: {
+        en: 'Advanced',
+        de: 'Fortgeschritten',
+        es: 'Avanzado',
+      },
+    },
+  ],
 };
 
 export default myInfo;
