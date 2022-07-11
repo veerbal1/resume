@@ -3,12 +3,17 @@ import React from 'react';
 import Body2 from '../../../components/Typography/Body2';
 import myInfo from '../../../info/my-info';
 
+// Icons
+import mailIcon from '../../../public/images/icons/mail.svg';
+import navigationIcon from '../../../public/images/icons/navigation.svg';
+import callIcon from '../../../public/images/icons/call.svg';
+
 const Address = () => {
   return (
     <>
-      <Item icon="https://cdn-icons-png.flaticon.com/512/317/317031.png" text={myInfo.contact.email}/>
-      <Item icon="https://cdn-icons-png.flaticon.com/512/317/317031.png" text={myInfo.contact.address[myInfo.language]} />
-      <Item icon="https://cdn-icons-png.flaticon.com/512/317/317031.png" text={myInfo.contact.phone} />
+      <Item icon={mailIcon.src} text={myInfo.contact.email}/>
+      <Item icon={navigationIcon.src} text={myInfo.contact.address[myInfo.language]} />
+      <Item icon={callIcon.src} text={myInfo.contact.phone} />
     </>
   );
 };
